@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 19, "column": 0}, "map": {"version":3,"sources":["file:///C:/Dev/2dMetaverseApp/2dmetaverseapp/src/app/page.tsx"],"sourcesContent":["import { SignedIn, SignedOut, SignInButton, SignUpButton, UserButton } from \"@clerk/nextjs\";\nimport Image from \"next/image\";\n\nexport default function Home() {\n  return (\n    <>\n      <div>\n         {/* <SignedOut>\n          <SignInButton />\n          <SignUpButton />\n        </SignedOut> */}\n      \n        <SignedIn>\n          <UserButton />\n        </SignedIn> \n      </div>\n    </>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;AAAA;;;AAGe,SAAS;IACtB,qBACE;kBACE,cAAA,8OAAC;sBAMC,cAAA,8OAAC,yKAAA,CAAA,WAAQ;0BACP,cAAA,8OAAC,sLAAA,CAAA,aAAU;;;;;;;;;;;;;;;;AAKrB","debugId":null}}]
+}
