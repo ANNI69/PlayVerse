@@ -1,6 +1,5 @@
 import Profile from "@/pages/ChooseProfile";
 import { SignedIn, SignedOut, SignInButton } from "@clerk/nextjs";
-import Image from "next/image";
 
 export default function Home() {
   return (
